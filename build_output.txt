@@ -1,0 +1,122 @@
+﻿cargo :    Compiling 
+proc-macro2 v1.0.104
+At line:1 char:1
++ cargo check --messa
+ge-format=short 2>&1 
+| Out-File -FilePath 
+build_ou ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (   Comp   
+ iling proc-macro    
+2 v1.0.104:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+   Compiling quote 
+v1.0.42
+   Compiling libm 
+v0.2.15
+   Compiling 
+windows_x86_64_msvc 
+v0.52.6
+   Compiling 
+windows_x86_64_msvc 
+v0.53.1
+   Compiling 
+num-traits v0.2.19
+   Compiling 
+thiserror v2.0.17
+   Compiling libc 
+v0.2.178
+   Compiling 
+crossbeam-utils 
+v0.8.21
+    Checking 
+futures-sink v0.3.31
+    Checking mio 
+v1.1.1
+    Checking slab 
+v0.4.11
+    Checking 
+simd-adler32 v0.3.8
+   Compiling 
+zerocopy v0.8.31
+    Checking 
+pin-utils v0.1.0
+    Checking 
+futures-io v0.3.31
+error: linker 
+`link.exe` not found
+note: the msvc 
+targets depend on 
+the msvc linker but 
+`link.exe` was not 
+found
+note: please ensure 
+that Visual Studio 
+2017 or later, or 
+Build Tools for 
+Visual Studio were 
+installed with the 
+Visual C++ option.
+note: VS Code is a 
+different product, 
+and is not 
+sufficient.
+    Checking 
+futures-channel 
+v0.3.31
+error: could not 
+compile `num-traits` 
+(build script) due 
+to 1 previous error
+warning: build 
+failed, waiting for 
+other jobs to 
+finish...
+error: could not 
+compile `windows_x86_
+64_msvc` (build 
+script) due to 1 
+previous error
+error: could not 
+compile `windows_x86_
+64_msvc` (build 
+script) due to 1 
+previous error
+error: could not 
+compile 
+`proc-macro2` (build 
+script) due to 1 
+previous error
+error: could not 
+compile `quote` 
+(build script) due 
+to 1 previous error
+error: could not 
+compile 
+`crossbeam-utils` 
+(build script) due 
+to 1 previous error
+error: could not 
+compile `libm` 
+(build script) due 
+to 1 previous error
+error: could not 
+compile `thiserror` 
+(build script) due 
+to 1 previous error
+error: could not 
+compile `libc` 
+(build script) due 
+to 1 previous error
+error: could not 
+compile `zerocopy` 
+(build script) due 
+to 1 previous error

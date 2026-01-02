@@ -1,0 +1,148 @@
+use iced::widget::Text;
+
+use crate::StyleType;
+use crate::gui::styles::style_constants::ICONS;
+
+pub enum Icon {
+    ArrowBack,
+    ArrowLeft,
+    ArrowRight,
+    ArrowsDown,
+    AudioHigh,
+    AudioMute,
+    Bin,
+    Book,
+    BytesThreshold,
+    Clock,
+    // Collapse,
+    Copy,
+    Generals,
+    Error,
+    // Expand,
+    Feedback,
+    File,
+    Forbidden,
+    Funnel,
+    GitHub,
+    // Globe,
+    HalfSun,
+    Hourglass1,
+    Hourglass2,
+    Hourglass3,
+    Inspect,
+    Lightning,
+    Moon,
+    NewerVersion,
+    News,
+    Notification,
+    OpenLink,
+    Overview,
+    PacketsThreshold,
+    // Restore,
+    Roadmap,
+    // Rocket,
+    Settings,
+    Sniffnet,
+    Sniffnet1,
+    Sniffnet2,
+    Sniffnet3,
+    Sniffnet4,
+    SortAscending,
+    SortDescending,
+    SortNeutral,
+    Star,
+    Sun,
+    ThumbnailOpen,
+    ThumbnailClose,
+    // Update1,
+    // Update2,
+    // Update3,
+    Warning,
+    Waves,
+    Pause,
+    Resume,
+}
+
+impl Icon {
+    pub fn codepoint(&self) -> char {
+        match self {
+            Icon::ArrowBack => 'C',
+            Icon::ArrowLeft => 'i',
+            Icon::ArrowRight => 'j',
+            Icon::ArrowsDown => ':',
+            Icon::AudioHigh => 'Z',
+            Icon::AudioMute => 'Y',
+            Icon::Bin => 'h',
+            Icon::BytesThreshold => '[',
+            Icon::Clock => '9',
+            Icon::Generals => 'Q',
+            Icon::Error => 'U',
+            Icon::Feedback => '=',
+            Icon::File => '8',
+            Icon::Forbidden => 'x',
+            Icon::Funnel => 'V',
+            Icon::GitHub => 'H',
+            // Icon::Globe => 'c',
+            Icon::HalfSun => 'K',
+            Icon::Hourglass1 => '1',
+            Icon::Hourglass2 => '2',
+            Icon::Hourglass3 => '3',
+            Icon::Inspect => '5',
+            Icon::Lightning => 'z',
+            Icon::Moon => 'G',
+            Icon::Notification => '7',
+            Icon::Overview => 'd',
+            Icon::PacketsThreshold => '\\',
+            // Icon::Restore => 'k',
+            // Icon::Rocket => 'S',
+            Icon::Settings => 'a',
+            Icon::Sniffnet => 'A',
+            Icon::Sniffnet1 => '!',
+            Icon::Sniffnet2 => '"',
+            Icon::Sniffnet3 => '#',
+            Icon::Sniffnet4 => '$',
+            Icon::Star => 'g',
+            Icon::Warning => 'T',
+            Icon::Waves => 'y',
+            Icon::Copy => 'u',
+            Icon::SortAscending => 'm',
+            Icon::SortDescending => 'l',
+            Icon::SortNeutral => 'n',
+            Icon::Sun => 'F',
+            Icon::OpenLink => 'o',
+            Icon::ThumbnailOpen => 's',
+            Icon::ThumbnailClose => 'r',
+            Icon::Book => 'B',
+            Icon::Roadmap => '?',
+            Icon::News => '>',
+            Icon::NewerVersion => '(',
+            // Icon::Update1 => '\'',
+            // Icon::Update2 => '%',
+            // Icon::Update3 => '&',
+            // Icon::Expand => 'p',
+            // Icon::Collapse => 'q',
+            Icon::Pause => '-',
+            Icon::Resume => '+',
+        }
+    }
+
+    pub fn to_text<'a>(&self) -> Text<'a, StyleType> {
+        Text::new(self.codepoint().to_string()).font(ICONS)
+    }
+
+    pub fn get_hourglass<'a>(num: usize) -> Text<'a, StyleType> {
+        match num {
+            2 => Icon::Hourglass2.to_text(),
+            3 => Icon::Hourglass3.to_text(),
+            _ => Icon::Hourglass1.to_text(),
+        }
+    }
+
+    // pub fn get_update<'a>(num: usize) -> Text<'a, StyleType> {
+    //     match num {
+    //         2 => Icon::Update2.to_text(),
+    //         3 => Icon::Update3.to_text(),
+    //         _ => Icon::Update1.to_text(),
+    //     }
+    // }
+}
