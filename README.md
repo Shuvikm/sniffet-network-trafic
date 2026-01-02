@@ -35,28 +35,6 @@ Translated in:<br>
 </picture>
 </p>
 
-
-## _Support Sniffnet's development_ 💖
-
-<i>Sniffnet is completely free, open-source software which needs lots of effort and time to develop and maintain.</i>
-
-<i>If you appreciate Sniffnet, [consider sponsoring](https://github.com/sponsors/GyulyVGC):
-your support will enable a constant growth with [new features and functionalities](https://github.com/GyulyVGC/sniffnet/blob/main/ROADMAP.md).<br>
-Do you want to help the project in an alternative way? You can also head to the [official store](https://grindhouse.dev/collections/sniffnet) and put your hands on some cool merchandise!</i>
-
-<i>A special mention goes to these awesome organizations and folks who are sponsoring Sniffnet:</i>
-
-<p align="center">
-<a href="https://nlnet.nl" title="NLnet"><img src="https://nlnet.nl/logo/logo.svg" width="60px" alt="NLnet"/></a>&nbsp;&nbsp;
-<a href="https://ads.fund" title="ADS Fund"><img src="https://avatars.githubusercontent.com/ADS-Fund?v=4" width="60px" alt="ADS Fund"/></a>&nbsp;&nbsp;
-<a href="https://ipinfo.io" title="IPinfo"><img src="https://avatars.githubusercontent.com/ipinfo?v=4" width="60px" alt="IPinfo"/></a>&nbsp;&nbsp;
-<a href="https://github.com/Cthulu201" title="Cthulu201"><img src="https://avatars.githubusercontent.com/Cthulu201?v=4" width="60px" alt="Cthulu201"/></a>&nbsp;&nbsp;
-<a href="https://github.com/0x0177b11f" title="Tiansheng Li"><img src="https://avatars.githubusercontent.com/0x0177b11f?v=4" width="60px" alt="Tiansheng Li"/></a>&nbsp;&nbsp;
-<a href="https://github.com/ZEROF" title="ZEROF"><img src="https://avatars.githubusercontent.com/ZEROF?v=4" width="60px" alt="ZEROF"/></a>&nbsp;&nbsp;
-<a href="https://www.janwalter.org/" title="Jan Walter"><img src="https://avatars.githubusercontent.com/wahn?v=4" width="60px" alt="Jan Walter"/></a>
-</p>
-
-
 ## Download
 
 <picture><img height="28px" alt="" title="Downloads count" src="https://raw.githubusercontent.com/GyulyVGC/GyulyVGC.github.io/master/assets/img/downloads_badge.svg"/></picture>
