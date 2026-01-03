@@ -20,31 +20,31 @@ pub const SARASA_MONO: Font = Font {
 pub const ICONS_BYTES: &[u8] = include_bytes!("../../../resources/fonts/subset/icons.ttf");
 pub const ICONS: Font = Font::with_name(ICON_FONT_FAMILY_NAME);
 
-// font sizes
-pub const FONT_SIZE_FOOTER: f32 = 14.3;
-pub const FONT_SIZE_BODY: f32 = 16.8;
-pub const FONT_SIZE_SUBTITLE: f32 = 18.3;
-pub const FONT_SIZE_TITLE: f32 = 19.9;
+// font sizes - refined for better visual hierarchy
+pub const FONT_SIZE_FOOTER: f32 = 13.5;
+pub const FONT_SIZE_BODY: f32 = 15.5;
+pub const FONT_SIZE_SUBTITLE: f32 = 17.0;
+pub const FONT_SIZE_TITLE: f32 = 20.5;
 
-// border styles
-pub const BORDER_WIDTH: f32 = 2.0;
+// border styles - modernized with softer corners
+pub const BORDER_WIDTH: f32 = 1.5;
 pub const CHARTS_LINE_BORDER: u32 = 1;
-pub const BORDER_ROUNDED_RADIUS: f32 = 15.0;
+pub const BORDER_ROUNDED_RADIUS: f32 = 20.0;
 pub const BORDER_BUTTON_RADIUS: f32 = 180.0;
 
-// red colors for alerts
+// red colors for alerts - more vibrant
 pub const RED_ALERT_COLOR_NIGHTLY: Color = Color {
     r: 1.0,
-    g: 0.4,
-    b: 0.4,
+    g: 0.35,
+    b: 0.35,
     a: 1.0,
 };
 pub const RED_ALERT_COLOR_DAILY: Color = Color {
-    r: 0.701_960_8,
-    g: 0.0,
-    b: 0.0,
+    r: 0.85,
+    g: 0.15,
+    b: 0.15,
     a: 1.0,
 };
 
 // delays
-pub const TOOLTIP_DELAY: Duration = Duration::from_millis(300);
+pub const TOOLTIP_DELAY: Duration = Duration::from_millis(250);

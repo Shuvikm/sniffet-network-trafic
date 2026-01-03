@@ -16,7 +16,7 @@ pub enum TextInputType {
     // Error,
 }
 
-const TEXT_INPUT_BORDER_RADIUS: f32 = 5.0;
+const TEXT_INPUT_BORDER_RADIUS: f32 = 8.0;
 
 impl TextInputType {
     fn active(&self, style: &StyleType) -> Style {
@@ -101,7 +101,7 @@ impl TextInputType {
     #[allow(clippy::unused_self)]
     fn selection_color(&self, style: &StyleType) -> Color {
         let color = style.get_palette().text_body;
-        Color { a: 0.2, ..color }
+        Color { a: 0.3, ..color }
     }
 
     fn hovered(&self, style: &StyleType) -> Style {

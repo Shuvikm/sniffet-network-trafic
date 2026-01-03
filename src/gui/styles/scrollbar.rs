@@ -101,7 +101,7 @@ impl ScrollbarType {
     }
 
     pub fn properties() -> Scrollbar {
-        Scrollbar::new().width(5).scroller_width(5).margin(3)
+        Scrollbar::new().width(4).scroller_width(4).margin(2)
     }
 }
 

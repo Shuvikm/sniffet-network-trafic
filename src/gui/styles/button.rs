@@ -105,8 +105,8 @@ impl ButtonType {
             shadow: match self {
                 ButtonType::TabActive | ButtonType::TabInactive => Shadow {
                     color: Color::BLACK,
-                    offset: Vector::new(3.0, 2.0),
-                    blur_radius: 4.0,
+                    offset: Vector::new(2.0, 3.0),
+                    blur_radius: 6.0,
                 },
                 _ => Shadow::default(),
             },
@@ -126,12 +126,12 @@ impl ButtonType {
                 _ => Shadow {
                     color: Color::BLACK,
                     offset: match self {
-                        ButtonType::TabActive | ButtonType::TabInactive => Vector::new(3.0, 3.0),
-                        _ => Vector::new(0.0, 2.0),
+                        ButtonType::TabActive | ButtonType::TabInactive => Vector::new(2.0, 4.0),
+                        _ => Vector::new(0.0, 3.0),
                     },
                     blur_radius: match self {
-                        ButtonType::TabActive | ButtonType::TabInactive => 4.0,
-                        _ => 2.0,
+                        ButtonType::TabActive | ButtonType::TabInactive => 8.0,
+                        _ => 4.0,
                     },
                 },
             },
